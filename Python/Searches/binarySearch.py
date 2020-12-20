@@ -1,4 +1,4 @@
-# Python 3 program for recursive binary search. 
+# Python 3 program for recursive binary search.  TIME COMPLEXITY O(log(n))
 # Modifications needed for the older Python 2 are found in comments. 
   
 # Returns index of x in arr if present, else -1 

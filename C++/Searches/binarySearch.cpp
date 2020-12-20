@@ -1,4 +1,4 @@
-// C++ program to implement recursive Binary Search 
+// C++ program to implement recursive Binary Search TIME COMPLEXITY O(log(n))
 #include <bits/stdc++.h> 
 using namespace std; 
   

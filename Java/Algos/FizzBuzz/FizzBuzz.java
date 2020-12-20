@@ -10,8 +10,17 @@ Write a solution (or reduce an existing one) so it has as few characters as poss
 
 public class FizzBuzz{
     public static void main(String[] args){
-        String input = System.console().readLine();
-        System.out.println(input);
+        for (int i = 1; i <= 100; i++) 
+        {
+            if (((i % 3) == 0) && ((i % 5) == 0)) // Is it a multiple of 3 & 5?
+                System.out.println("FizzBuzz");
+            else if ((i % 3) == 0) // Is it a multiple of 3?
+                System.out.println("Fizz");
+            else if ((i % 5) == 0) // Is it a multiple of 5?
+                System.out.println("Buzz");
+            else
+                System.out.println(i); // Not a multiple of 3 or 5
+        }
     }
 }
 

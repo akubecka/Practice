@@ -4,6 +4,9 @@ InsertionSort: O(n^2) - run through array starting at index 1(key). Compare key 
 MergeSort: Theta(nlogn) - divide array in half. Run mergeSort on left and right sides(so keep dividing in halves). Merge them all back together and sort as you do
 QuickSort: Avg: O(nlogn) - Pick a pivot, cut array in half with <pivot, >pivot partitions, keep doing that like merge. Place pivots in right position.
 
+BFS: O(V+E), Queue, Slower
+DFS: O(V+E), Stack, Faster
+
 
 Heap stores dynamic memory data, Stack stores local memory data
 Stack - Last in First out(LIFO)

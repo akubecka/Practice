@@ -4,7 +4,6 @@ This code reads from the command line and prints it back on command line
 
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 int main(){

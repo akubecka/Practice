@@ -28,4 +28,4 @@ UDP unreliable, sends data, no checks
 CPP start
 #include <iostream>
 using namespace std;
-int main(){
+int main(){}
